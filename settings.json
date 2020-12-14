@@ -86,7 +86,7 @@
   "vsicons.associations.folders": [
     {
       "icon": "template",
-      "extensions": ["structures"]
+      "extensions": ["structures", "classes"]
     },
     {
       "icon": "db",
