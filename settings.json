@@ -1,7 +1,6 @@
 {
   // Display, fonts, theme, terminal
   "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "boundary",
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
   "terminal.integrated.fontFamily": "DejaVuSansMonoForPowerline Nerd Font, consolas, monospace",
