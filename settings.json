@@ -112,5 +112,13 @@
       "icon": null,
       "extensions": ["image"]
     }
-  ]
+  ],
+  "sonarlint.rules": {
+    "Web:PageWithoutTitleCheck": {
+      "level": "off"
+    },
+    "typescript:S1128": {
+      "level": "off"
+    }
+  }
 }
