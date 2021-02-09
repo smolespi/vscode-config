@@ -39,6 +39,7 @@
   },
 
   // Formatting, linting, CI, and saving
+  "files.eol": "\n"
   "git.enableSmartCommit": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -140,5 +141,4 @@
       "level": "off"
     }
   },
-  "files.eol": "\n"
 }
