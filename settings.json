@@ -9,8 +9,10 @@
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "terminal.integrated.fontSize": 18,
   "workbench.colorTheme": "Cold Horizon",
   "workbench.iconTheme": "vscode-icons",
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.startupEditor": "newUntitledFile",
 
   // Extensions
@@ -26,6 +28,8 @@
   "gitlens.codeLens.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "python.languageServer": "Pylance",
+  "editor.snippetSuggestions": "bottom",
+  "editor.tabCompletion": "on",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
   // Emojisense
@@ -44,15 +48,16 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
-  "files.maxMemoryForLargeFilesMB": 8192
+  "files.maxMemoryForLargeFilesMB": 8192,
   "editor.tabSize": 2,
+  "liquid.format": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
 
   "files.exclude": {
-    "rethinkdb.exe": true,
-    "Lavalink.jar": true,
+    "**/*.exe": true,
+    "**/*.jar": true,
     "**/.git": true,
     "**/.svn": true,
     "**/.DS_Store": true,
@@ -74,7 +79,6 @@
   },
 
   // Annoyances and such
-  "cmake.configureOnOpen": false,
   "csharp.suppressDotnetInstallWarning": true,
   "csharp.suppressProjectJsonWarning": true,
   "telemetry.enableCrashReporter": false,
@@ -139,5 +143,5 @@
     "typescript:S1117": {
       "level": "off"
     }
-  },
+  }
 }
