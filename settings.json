@@ -22,11 +22,13 @@
   "discord.lowerDetailsEditing": "Line {current_line}/{total_lines} | {file_size}",
   "extensions.ignoreRecommendations": true,
   "liveshare.featureSet": "insiders",
+  "liveshare.allowGuestDebugControl": true,
   "liveshare.presence": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
+  "go.toolsManagement.autoUpdate": true,
   "python.languageServer": "Pylance",
   "editor.snippetSuggestions": "bottom",
   "editor.tabCompletion": "on",
@@ -100,6 +102,18 @@
     "files.trimTrailingWhitespace": false
   },
 
+  // Templating languages
+  "files.associations": {
+    "*.ejs": "html",
+    "*.hbs": "html"
+  },
+
+  // Emmet languages
+  "emmet.includeLanguages": {
+    "ejs": "html",
+    "hbs": "html"
+  },
+
   // Custom icon associations
   "vsicons.associations.folders": [
     {
@@ -141,6 +155,12 @@
       "level": "off"
     },
     "typescript:S1117": {
+      "level": "off"
+    },
+    "typescript:S1301": {
+      "level": "off"
+    },
+    "typescript:S1479": {
       "level": "off"
     }
   }
